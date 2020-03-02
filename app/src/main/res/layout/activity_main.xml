@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/c_key"
+        android:background="#FD0303"
+        android:onClick="soundA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/KeyStyle"
+        android:background="#F8D605"
+        android:id="@+id/d_key"
+        android:onClick="soundB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/e_key"
+        android:background="#082CF1"
+        android:onClick="soundC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/f_key"
+        android:background="#4CF703"
+        android:onClick="soundD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/g_key"
+        android:background="#E306F1"
+        android:onClick="soundE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/a_key"
+        android:background="#00FCED"
+        android:onClick="soundF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/b_key"
+        android:background="#6F4747"
+        android:onClick="soundG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

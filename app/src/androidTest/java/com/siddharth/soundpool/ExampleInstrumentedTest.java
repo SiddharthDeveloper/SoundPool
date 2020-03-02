@@ -1,4 +1,4 @@
-package com.siddharth.piano;
+package com.siddharth.soundpool;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

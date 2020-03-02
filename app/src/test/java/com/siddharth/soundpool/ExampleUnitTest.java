@@ -1,4 +1,4 @@
-package com.siddharth.piano;
+package com.siddharth.soundpool;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.siddharth.piano;
+package com.siddharth.soundpool;
 
 import android.media.AudioManager;
 import android.media.SoundPool;
